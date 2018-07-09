@@ -14,7 +14,7 @@ eat= gets.chomp
 
 puts "How may nights?"
 
-nights = gets.chomp.capitalize
+nights = gets.chomp
 
 
 # Lastly, puts it all back by interpolating these values in a string.
