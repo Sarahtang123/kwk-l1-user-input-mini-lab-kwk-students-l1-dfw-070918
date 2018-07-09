@@ -27,7 +27,7 @@ describe 'trip.rb prompts the user for the right information' do
     expect(self).to receive(:gets).and_return("pizza").at_least(:once)
     eat = get_variable_from_file("./trip.rb", "eat")
 
-    expect(eat).to eq("pizza")
+    expect(eat).to eq("Pizza")
   end
 
   it 'captures the user input of how many nights they would like to stay and sets it equal to a variable called nights' do
